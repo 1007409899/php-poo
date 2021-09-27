@@ -26,11 +26,12 @@ a:hover {
 .container {
     padding-top: 30px;
     width: 80%;
-    height: auto;
     margin: 0px auto;
     box-shadow: 0px 0px 10px rgb(23, 23, 212);
     background: white;
     border-radius: 10px;
+    flex-direction: column;
+    overflow: auto
 }
 
 
@@ -117,4 +118,85 @@ a:hover {
 
 #menu a:hover {
     background: #01b1ea;
+}
+
+#content {
+    margin: 10px auto;
+}
+
+
+/*barra lateral*/
+
+#lateral {
+    width: 25%;
+    min-height: 500px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+#lateral h3 {
+    display: block;
+    color: #222;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background: #e1e1e1;
+    border-bottom: 2px solid #01b1ea;
+}
+
+#lateral .block-aside {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid red;
+}
+
+#central {
+    width: 71%;
+    float: right;
+    border-left: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #ddd;
+    padding: 25px;
+}
+
+
+/*centrl*/
+
+#central h1 {
+    border-radius: 90px 50px 90px 50px;
+    background-color: rgb(0, 255, 13);
+    font-size: 555px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: inherit;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.product {
+    color: #222;
+}
+
+.product h2 {
+    color: #222;
+}
+
+.product a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    background-color: #14ea01;
+    border-radius: 10px;
+}
+
+.product img {
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
 }
